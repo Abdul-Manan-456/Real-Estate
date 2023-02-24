@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+  </head>
+    <style>
+      body {
+        text-align: center;
+        padding: 40px 0;
+        background: #EBF0F5;
+      }
+        h1 {
+          color: #88B04B;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-weight: 900;
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        p {
+          color: #404F5E;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-size:14px;
+          margin-bottom: 20;
+        }
+      i {
+        color: #9ABC66;
+        font-size: 80px;
+        line-height: 180px;
+        margin-left:-15px;
+      }
+      a{
+        background-color: #C8D0D8;
+        color: #9ABC66;
+        font: 12px;
+        margin-top:50px;
+        padding:5px 12px;
+        font-weight: 800;
+        border:none;
+        width:150px;
+        height:130px;
+        cursor:pointer;
+        text-decoration: none;
+      }
+      a:hover{
+        background-color:  #404F5E;
+      }
+      .card {
+        background: white;
+        padding: 60px;
+        border-radius: 4px;
+        box-shadow: 0 2px 3px #C8D0D8;
+        display: inline-block;
+        margin: 0 auto;
+      }
+    </style>
+    <body>
+      <div class="card">
+      <div style="border-radius:170px; height:170px; width:170px; background: #F8FAF5; margin:0 auto;">
+        <i class="checkmark">✓</i>
+      </div>
+        <h1>Congratulations</h1> 
+        <p><%= message %>  <br>  <%= info %> </p>
+     
+       <a href="/api/vi/login">Login</a>
+      </div>
+    </body>
+</html>

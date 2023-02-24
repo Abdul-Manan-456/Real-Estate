@@ -1,0 +1,89 @@
+				Real Estate Mobile App
+Multi-Vendor System
+	Buyers
+	Sellers
+	Admin
+User Authentication
+	Login
+	Register
+Forget Password
+Email Integration
+	Helpful in Forget Password and during registration process
+After login, seller can redirect towards their profile screen
+Both Users can edit their profile
+Categories and Sub-categories
+Sellers will upload the property details that he want to sale
+Following are the things that will be required during uploading by seller
+	Name
+	Description
+	Price
+	Static Location 
+	Images
+	Maps Location
+	Contact Details
+After buyer login, he will also redirect to his dashboard where multiple properties will be enlisted
+Buyer will select any property in which he will be interested, and read details
+Chat Module
+	If buyer is interested in property, then he will message the seller through chat box
+Payment Method
+	Payment will be done manually
+	If the deal is done, buyer have to send payment manually and send the photo of receipt in chat box to seller
+Buyer can see location of property through google maps
+Buyer can provide feedback to the seller property
+Buyer and sellers has their analytics module
+Seller Analytics:
+	Properties Sold
+	Properties Pending
+	Earning
+	Total Clients
+Buyer Analytics:
+	Properties Buy
+	Amount Spend
+Notification
+
+	
+----------------------------------------------------------------------------------------
+
+
+WORK START:
+
+9TH FEB :- AUTH 
+10TH FEB :- 401 TYPES 	Buyers Sellers Admin
+Following are the things that will be required during uploading by seller
+	Name
+	Description
+	Price
+	Static Location 
+//	Images
+	Maps Location
+	Contact Details
+	House Size
+	Furnished
+	Bedrooms
+	Washrooms
+	Rent or Sell 
+	Agent Details
+
+
+
+// browser shortcut keys to open console on browser
+ctrl+ shift + j
+
+
+
+// Weekly WORK
+------------- 20 - 02 - 2023----------
+// create token
+// learn nodemailer
+// make email api
+// make verify email api and send
+// make html page for success message
+// make  api to check for token
+// make resend Api
+
+------------- 21 - 02 - 2023----------
+// interview
+// make html page for error handling
+// make success page html
+// forgot password
+// reset password
